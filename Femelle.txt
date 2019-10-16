@@ -9,4 +9,4 @@ class Femelle:
         self.num_affiliation = num_affiliation
         self.kilometrage = kilometrage
     def __str__(self):
-        return f'biatch information:\n{self.age}ans\n{self.taille}cm\n{self.bonnet}\n{self.prix_base}€\n{self.mst}\n{self.couleur}\n{self.num_affiliation}\n{self.kilometrage}Hrs \nenjoy it!'
+        return f'biatch information:\nage:{self.age}ans\ntaille:{self.taille}cm\nbonnet:{self.bonnet}\nprix de base:{self.prix_base}€\nmst:{self.mst}\ncouleur de peau:{self.couleur}\nnuméro affiliation:{self.num_affiliation}\nkilometrage:{self.kilometrage}Hrs \nenjoy it!'
