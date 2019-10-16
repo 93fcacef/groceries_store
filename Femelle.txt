@@ -1,0 +1,12 @@
+class Femelle:
+    def __init__(self, age, taille, bonnet, prix_base, mst, couleur, num_affiliation, kilometrage):
+        self.age = age
+        self.taille = taille
+        self.bonnet = bonnet
+        self.prix_base = prix_base
+        self.mst = mst
+        self.couleur = couleur
+        self.num_affiliation = num_affiliation
+        self.kilometrage = kilometrage
+    def __str__(self):
+        return f'biatch information:\nage:{self.age}ans\ntaille:{self.taille}cm\nbonnet:{self.bonnet}\nprix de base:{self.prix_base}€\nmst:{self.mst}\ncouleur de peau:{self.couleur}\nnuméro affiliation:{self.num_affiliation}\nkilometrage:{self.kilometrage}Hrs \nenjoy it!'
